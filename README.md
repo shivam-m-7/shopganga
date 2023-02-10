@@ -1,6 +1,6 @@
 # Welcome to ShopPoint! ✨
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://shopganga.onrender.com/)&nbsp;[![Build passing](https://img.shields.io/badge/Build-Passing-brightgreen.svg?style=flat-square)](https://shopganga.onrender.com/)&nbsp;![Made with love in India](https://madewithlove.now.sh/np?heart=true)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://shopganga.onrender.com/)&nbsp;[![Build passing](https://img.shields.io/badge/Build-Passing-brightgreen.svg?style=flat-square)](https://shopganga.onrender.com/)&nbsp;![Made with love in India](https://madewithlove.now.sh/in?heart=true)
 
 **Project Link** - ***https://shopganga.onrender.com/***
 
