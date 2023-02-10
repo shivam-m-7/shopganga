@@ -123,7 +123,7 @@ const updatePassword = asyncHandler(async (req, res, next) => {
   if (!isMatch)
     throw createError(
       400,
-      `Current password ${req.body.currentPassword} does't match`
+      `Current password ${req.body.currentPassword} doesn't match`
     );
 
   user.password = req.body.newPassword;
@@ -146,10 +146,10 @@ const forgotPassword = asyncHandler(async (req, res, next) => {
   await user.save({ validateBeforeSave: false });
 
   try {
-    const resetUrl = `https://shoppoint.herokuapp.com/reset-password/?token=${resetToken}`;
+    const resetUrl = `https://shopganga.onrender.com/reset-password/?token=${resetToken}`;
 
     const message = `You are receiving this email because you (or someone else ) has
-    requested the reset of a password.`;
+    requested to reset the password.`;
 
     const options = {
       email: user.email,
@@ -162,7 +162,7 @@ const forgotPassword = asyncHandler(async (req, res, next) => {
 
     res
       .status(200)
-      .send({ status: "success", message: "ResetPassword token Email sent" });
+      .send({ status: "success", message: "Reset Password token Email sent" });
   } catch (error) {
     console.log(error);
 
@@ -171,7 +171,7 @@ const forgotPassword = asyncHandler(async (req, res, next) => {
 
     await user.save({ validateBeforeSave: false });
 
-    throw createError(500, "Email cound't be sent");
+    throw createError(500, "Email couldn't be sent");
   }
 });
 
@@ -200,7 +200,7 @@ const resetPassword = asyncHandler(async (req, res, next) => {
 
   res
     .status(200)
-    .send({ status: "success", message: "Your Password has beed changed" });
+    .send({ status: "success", message: "Your Password has been changed" });
 });
 
 const sendTokenResponse = (user, statusCode, res) => {
