@@ -63,7 +63,7 @@
 **1. Clone this repo by running the following command :-**
 
 ```bash
- git clone https://github.com/SajidAnTechie/ShopPoint
+ git clone https://github.com/shivam-m-7/shopganga
  cd ShopPoint
 ```
 
