@@ -4,7 +4,7 @@
 
 **Project Link** - ***https://shopganga.onrender.com/***
 
-![screenshot](image/home.PNG)
+![screenshot](image/home2.gif)
 
 ## Features and Functionalities 😃
 
