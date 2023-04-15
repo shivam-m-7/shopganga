@@ -4,6 +4,11 @@
 
 **Project Link** - ***https://shopganga.onrender.com/***
 
+**Other Links** 
+- https://shoppingganga.cyclic.app/
+- https://fair-jade-xerus-hem.cyclic.app/
+- https://gangashop.onrender.com/
+
 ![screenshot](image/home2.gif)
 
 ## Features and Functionalities 😃
